@@ -70,3 +70,19 @@ body{
 .card-text p{
   font-weight: 400;
 }
+
+.listing-link{
+  text-decoration: none;
+}
+
+/*Card Effect*/
+
+.card-img-overlay{
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-img-overlay:hover{
+  opacity:0.2 ;
+  background-color: #ebebeb;
+}
