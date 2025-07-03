@@ -79,10 +79,11 @@ body{
 
 .card-img-overlay{
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .card-img-overlay:hover{
   opacity:0.2 ;
-  background-color: #ebebeb;
+  background-color: white;
 }
+

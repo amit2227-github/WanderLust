@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WanderLust</title>
-</head>
-<body>
+<% layout("layouts/boilerplate") %>
 <h3>Create a New Listing</h3>
     <form method="post" action="/listings">
+        <label for="">Title</label>
         <input name="listing[title]" placeholder="enter the title" type="text">
         <br> <br>
         <textarea name="listing[description]" placeholder="Enter description" id="" type="text"></textarea>
@@ -23,5 +17,3 @@
         <button>Add</button>
     </form>
     
-</body>
-</html>
