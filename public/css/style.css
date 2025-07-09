@@ -1,5 +1,12 @@
 body{
   font-family: "Plus jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex:1;
 }
 
 .navbar{
@@ -32,8 +39,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-
 
 .f-info-socials i{
     font-size: 1.2rem;
@@ -87,3 +92,7 @@ body{
   background-color: white;
 }
 
+.add-btn{
+  background-color:  #fe424d  !important;
+  border: none !important;
+}
