@@ -101,5 +101,5 @@ app.delete("/listings/:id", async(req,res) =>{
 
 
 app.listen(8080 ,(req,res)=>{
-   console.log("Working");
+   console.log(`working : https://localhost:3000`);
 });
